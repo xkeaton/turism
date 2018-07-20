@@ -1,0 +1,54 @@
+.jtabla{
+     
+    border-radius: 10px;
+    /*width: 100%;*/
+    border-collapse: collapse;
+    overflow: hidden;
+    width: 800px
+}
+
+.jtabla tr td {
+    text-align: center;
+    
+}
+
+@media screen and (max-width:767px){
+    .jtabla, .jtabla tr, .jtabla td, tbody {
+        width: 100%;
+        
+    }
+
+@media screen and (max-width:400px){
+    .jtabla, .jtabla tr, .jtabla td, tbody {
+        display: block;
+        
+    }
+    
+
+    
+    /*LAS SIGUIENTES LINEAS SON OPCIONALES
+        .jtabla th {
+        display: none;
+    }
+    
+    .jtabla tr td {
+        position: relative;
+        padding-left: 40%;
+        text-align: left;
+    }
+    
+    .jtabla tr td::before {
+        content: attr(title) " : ";
+        color: yellow;
+        left: 15px;
+        position: absolute;
+    }
+    .jtabla tr {
+        border: none;
+    }
+    
+    .jtabla tr:nth-child(1n+2){
+        padding: 15px 0; 
+    }*/
+    
+}
